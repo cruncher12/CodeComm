@@ -35,6 +35,7 @@
   cursor: pointer;
   height: 5.5vh;
   border-radius: 10px;
+  text-align: center;
 }
 
 .btn:hover {
