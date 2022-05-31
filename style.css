@@ -6,11 +6,18 @@
   --navbarsecondary: #2BF5E8;
 } 
 
+@font-face {
+  font-family: 'Cascadia Code Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Cascadia Code Regular'), url('Cascadia.woff') format('woff');
+}
+
 * {
  /* box-sizing: border-box;*/
   padding: 0;
   margin: 0;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Cascadia Code Regular'
 }
 
 
