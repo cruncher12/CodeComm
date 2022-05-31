@@ -90,3 +90,7 @@ body {
   line-height: 40px;
   padding: 10px;
 }
+
+.navbar a{
+  color: black;
+}
