@@ -4,6 +4,8 @@
   --tertiary: #F2A522;
   --navbarmain: #23FC57;
   --navbarsecondary: #2BF5E8;
+  --lightbackground: #F2F2F2;
+  --darkbackground: #413F42;
 } 
 
 @font-face {
@@ -99,5 +101,15 @@ body {
 }
 
 .navbar a{
+  color: black;
+}
+
+.darkmode body {
+  background-color: var(--darkbackground);
+  color: #F2F2F2;
+}
+
+.lightmode body {
+  background-color: var(--light-background);
   color: black;
 }
