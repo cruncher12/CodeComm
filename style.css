@@ -4,7 +4,7 @@
   --tertiary: #F2A522;
   --navbarmain: #23FC57;
   --navbarsecondary: #2BF5E8;
-}
+} 
 
 * {
  /* box-sizing: border-box;*/
@@ -19,8 +19,8 @@
   right: 0;
   padding: 0.4rem;
   width: 4rem;
-  background: #FF2F19;
-  color: #1FECF5;
+  background: var(--secondary);
+  color: --tertiary;
   font-size: 1rem;
   outline: none;
   cursor: pointer;
