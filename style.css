@@ -115,10 +115,8 @@ body {
   color: black;
 }
 
-div[contenteditable]{
-  height:calc(100vh - 70px);
-  overflow-y:scroll;
-}
-body{
-  overflow:hidden;
+.content-editable{
+  min-height: 30px;
+  overflow: auto;
+  max-height: calc(100vh - 65px);
 }
