@@ -114,3 +114,11 @@ body {
   background-color: var(--light-background);
   color: black;
 }
+
+div[contenteditable]{
+  height:calc(100vh - 70px);
+  overflow-y:scroll;
+}
+body{
+  overflow:hidden;
+}
