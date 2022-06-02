@@ -55,28 +55,14 @@
 }
 
 .first {
-  background-color: #ffffff;
-  width: 50%;
-  overflow-x: hidden;
-  overflow-y: auto;
-  white-space: pre;
-  box-shadow: 0px 0px 8px rgb(22 22 22);
-  outline: none;
-  padding: 0.4rem;
-  height: 90vh;
-  border-radius: 10px;
-}
-
-.second {
   background-color: rgb(255, 255, 255);
   width: 50%;
   overflow-y: auto;
   white-space: pre;
-  right: 0;
-  box-shadow: 0 1px 1px rgb(22, 22, 22);
   padding: 0.4rem;
   height: 90vh;
   border-radius: 10px;
+  border: 2px solid lightgrey;
 }
 
 
