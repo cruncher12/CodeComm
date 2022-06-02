@@ -1,14 +1,14 @@
-const first = document.querySelector('.first');
+const spacebox = document.querySelector('.space-box');
 const iframe = document.querySelector('iframe');
 const btn = document.querySelector('button');
 
 btn.addEventListener('click', () => {
-  var html = first.textContent;
+  var html = spacebox.textContent;
   iframe.src = 'data:text/html;charset=utf-8,' + encodeURI(html);
 });
 
 document.getElementById('codebox').addEventListener('input', function(){
-  var html = first.textContent;
+  var html = spacebox.textContent;
   iframe.src = 'data:text/html;charset=utf-8,' + encodeURI(html);
 })
 
