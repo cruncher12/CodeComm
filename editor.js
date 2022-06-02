@@ -15,8 +15,3 @@ document.getElementById('codebox').addEventListener('input', function(){
 window.onbeforeunload = function(){
   return 'Are you sure you want to leave?';
 };
-
-document.querySelectorAll('div.first').forEach(el => {
-  // then highlight each
-  hljs.highlightElement(el);
-});
