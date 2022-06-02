@@ -1,4 +1,4 @@
-w3CodeColor(document.getElementById("first"));
+w3CodeColor(document.getElementById("codebox"));
 
 function w3CodeColor(elmnt, mode) {
   var lang = (mode || "html");
