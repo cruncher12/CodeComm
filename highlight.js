@@ -19,7 +19,7 @@ function w3CodeColor(elmnt, mode) {
   var jsstringcolor = "brown";
   var jsnumbercolor = "red";
   var jspropertycolor = "black";
-  elmntObj.style.fontFamily = "Cascadia Code Regula";
+  elmntObj.style.fontFamily = "Cascadia Code Regular";
   if (!lang) {lang = "html"; }
   if (lang == "html") {elmntTxt = htmlMode(elmntTxt);}
   if (lang == "css") {elmntTxt = cssMode(elmntTxt);}
