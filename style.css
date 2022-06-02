@@ -1,7 +1,8 @@
 :root {
   --primary: #95E62C;
   --secondary: #23FC57;
-  --tertiary: #F2A522;
+  /* Rule no 1: No stealing! */
+  /* Where credit? */
   --navbarmain: #23FC57;
   --navbarsecondary: #2BF5E8;
   --lightbackground: #F2F2F2;
@@ -22,27 +23,23 @@
   font-family: 'Cascadia Code Regular'
 }
 
+body {
+  margin: 25px 20px 0 20px;
+  background-color: var(--light-background);
+  color: black;
+  overflow-x: hidden;
+}
 
 .btn {
-  position: fixed;
-  right: 0;
-  padding: 0.4rem;
-  width: 4rem;
-  background: var(--secondary);
-  color: --tertiary;
-  font-size: 1rem;
-  outline: none;
-  cursor: pointer;
-  height: 5.5vh;
+  padding: 8px 16px 8px 16px;
   border-radius: 10px;
-  text-align: center;
+  outline: none;
+  font-size: 1rem;
+  position: absolute;
+  top: 15px;
+  right: calc(1rem + 16px * 2 + 5px); /* 1rem for font, 16px 2 times for sideways padding, 5px for extra margin */
+  cursor: pointer;
 }
-
-.btn:hover {
-  color: white;
-  background: var(--tertiary);
-}
-
 
 .main-editor {
   display: flex;
@@ -63,14 +60,6 @@
   height: 90vh;
   border-radius: 10px;
   border: 2px solid lightgrey;
-}
-
-
-body {
-  margin: 25px 20px 0 20px;
-  background-color: var(--light-background);
-  color: black;
-  overflow-x: hidden;
 }
 
 .navbar {
