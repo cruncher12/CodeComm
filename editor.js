@@ -16,7 +16,7 @@ window.onbeforeunload = function(){
   return 'Are you sure you want to leave?';
 };
 
-document.querySelectorAll('div.codebox').forEach(el => {
+document.querySelectorAll('div.first').forEach(el => {
   // then highlight each
   hljs.highlightElement(el);
 });
