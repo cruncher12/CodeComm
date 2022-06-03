@@ -104,7 +104,7 @@ body {
   right: calc(1rem + 70px * 2 + 5px);
   display: inline-block;
   width: 60px;
-  height: 34px;
+  height: 35px;
 }
 
 .updateswitch input {display:none;}
@@ -120,12 +120,13 @@ body {
   -webkit-transition: .4s;
   transition: .4s;
   border-radius: 20px;
+  height: 35px;
 }
 
 .slider:before {
   position: absolute;
   content: "";
-  height: 26px;
+  height: 25px;
   width: 26px;
   left: 4px;
   bottom: 4px;
@@ -152,6 +153,6 @@ input:checked + .slider:before {
 .main-editor p {
   color: black;
   position: absolute;
-  top: 15px;
+  top: 20px;
   right: calc(1rem + 110px * 2 + 5px);
 }
