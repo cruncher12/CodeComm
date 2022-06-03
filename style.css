@@ -153,6 +153,6 @@ input:checked + .slider:before {
 .main-editor p {
   color: black;
   position: absolute;
-  top: 20px;
+  top: 25px;
   right: calc(1rem + 110px * 2 + 5px);
 }
