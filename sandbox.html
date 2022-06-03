@@ -9,9 +9,6 @@
   <title>CodeComm</title>
 </head>
 <div class='navbar'>
-  <label class="updateswitch">
-  <input type="checkbox">
-  <div class="slider"></div>
   <a href='./'>CodeComm</a> - 
   <a href='./sandbox.html'>Create</a> - 
   <a href='./about.html'>About</a>
@@ -20,6 +17,11 @@
 
 <body>
   <div class='main-editor'>
+    <p>Toggle Auto-Updating</p>
+    <label class="updateswitch">
+    <input type="checkbox">
+    <div class="slider"></div>
+    </label>
     <button class='btn'>Run</button>
     <div class='space-box' contenteditable='true' class='content-editable' spellcheck='false' id='codebox' name='codebox'><xmp><p>Hello, World!</p></xmp></div>
     <iframe class='space-box'>Your browser does not support iframes.</iframe>
