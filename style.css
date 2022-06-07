@@ -156,3 +156,8 @@ input:checked + .slider:before {
   top: 25px;
   right: calc(1rem + 110px * 2 + 5px);
 }
+
+input {
+  border-radius: 10px;
+  height: 20px;
+}

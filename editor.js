@@ -31,3 +31,11 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 });
+
+function login() {
+  const loginrequest = {
+    'X-RapidAPI-Host': 'arjunkomath-jaas-json-as-a-service-v1.p.rapidapi.com'
+    , 'X-RapidAPI-Key': '7xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+    , 'Content-Type': 'application/json'
+  };
+}
